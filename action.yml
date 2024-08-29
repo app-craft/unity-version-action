@@ -11,7 +11,7 @@ outputs:
   unity-version-changeset:
     description: Unity version changeset. Also setted env UNITY_VERSION_CHANGESET
 runs:
-  using: node16
+  using: node20
   main: src/setup.js
 branding:
   icon: download
